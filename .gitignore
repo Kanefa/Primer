@@ -1,0 +1,12 @@
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+# Visual Studio 2013
+# Base Project
+# sdf, stores information for Visual Studio's Intellisense
+*.sdf
+*.opensdf
+# suo, solution user file (hidden)
+*.suo
+
