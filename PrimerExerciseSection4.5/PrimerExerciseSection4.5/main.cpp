@@ -26,15 +26,15 @@ void exercise4_19()
 	int ival = 0;
 	int *ptr = &ival;
 
-	// a. The logical AND (&&) operator guarantees the order of evaluation. First evaluate the righthand operand (ptr != 0).
-	// The lefthand operand will be the boolean result of the inequality check between ptr and 0. Then evaluate the lefthand 
+	// a. The logical AND (&&) operator guarantees the order of evaluation. First evaluate the lefthand operand (ptr != 0).
+	// The lefthand operand will be the boolean result of the inequality check between ptr and 0. Then evaluate the righthand 
 	// operand (*ptr++). First, ptr will be incremented, but the original value will be dereference. You'll be left with
 	// (ptr != 0 && *ptr)
 	ptr != 0 && *ptr++;
 
-	// a. The logical AND (&&) operator guarantees the order of evaluation. First evaluate the righthand operand (ival++).
-	// iVal will be incremented, but the lefthand operand will be the original value. Then evaluate the lefthand operand (ival).
-	// You'll be left with (ival && ival).
+	// a. The logical AND (&&) operator guarantees the order of evaluation. First evaluate the lefthand operand (ival++).
+	// iVal will be incremented, but the lefthand operand will be the original value. The righthand operand is ival leaving
+	// you with with (ival && ival).
 	ival++ && ival;
 
 	// c. The relational less than of equal (<=) operator does not guarantees the order of evaluation. The behavior is undefined.
