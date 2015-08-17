@@ -2,14 +2,11 @@
 [Tt]humbs.db
 *.DS_Store
 
-# Visual Studio 2013
-# Base Project
+# Visual Studio 2015
 # sdf, stores information for Visual Studio's Intellisense
 *.sdf
 *.opensdf
 # suo, solution user file (hidden)
 *.suo
-
-# Visual Studio 2015
 # vs directory, stores user specific files
 .vs/
