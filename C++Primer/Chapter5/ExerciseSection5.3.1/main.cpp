@@ -68,11 +68,18 @@ void exercise5_7()
 		ival = get_value();
 }
 
+void exercise5_8()
+{
+	// The dangling else problem is the issue of what if the else clause matches with. In C++ the else is
+	// matched with the closest preceding unmatched if. Remember, statements do not span block boundaries.
+}
+
 int main()
 {
 	exercise5_5();
 	exercise5_6();
 	exercise5_7();
+	exercise5_8();
 
 	return 0;
 }
